@@ -70,7 +70,8 @@
 
 .fifth {
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: repeat(3,1fr
+    );
     background-color: rgb(10, 10, 10);
     color: white;
     grid-row-gap: 5px;
