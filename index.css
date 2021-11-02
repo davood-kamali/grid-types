@@ -15,3 +15,81 @@
     background-color: teal;
     
 }
+
+.second {
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    background-color: rgb(10, 10, 10);
+    color: white;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.second div{
+    background-color: teal;
+    
+}
+
+.third {
+    display: grid;
+    grid-template-columns: repeat(4 ,auto);
+    background-color: rgb(10, 10, 10);
+    color: white;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.third div{
+    background-color: teal;
+    
+}
+
+.forth {
+    display: grid;
+    grid-template-columns:200px 200px auto 200px auto;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.forth div{
+    background-color: teal;
+    
+}
+
+.fifth {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.fifth div{
+    background-color: teal;
+    
+}
+
+.fifth {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.fifth div{
+    background-color: teal;
+    
+}
+
+.sixth {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 4fr;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.sixth div{
+    background-color: teal;
+    
+}
