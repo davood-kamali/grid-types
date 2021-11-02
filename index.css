@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.first {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    grid-row-gap: 5px;
+    grid-column-gap: 5px;
+}
+.first div{
+    background-color: teal;
+    
+}
