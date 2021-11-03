@@ -70,8 +70,7 @@
 
 .fifth {
     display: grid;
-    grid-template-columns: repeat(3,1fr
-    );
+    grid-template-columns: repeat(3,1fr);
     background-color: rgb(10, 10, 10);
     color: white;
     grid-row-gap: 5px;
@@ -95,4 +94,53 @@
 .sixth div{
     background-color: teal;
     
+}
+
+ 
+.seven{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 4fr;
+   
+    
+   background-color: rgb(10, 10, 10);
+    color: white;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+}
+.seven div{
+    background-color: teal;
+}
+
+.eight{
+    display: grid;
+    background-color: black;
+    color: white;
+    grid-template-columns:repeat(5 ,1fr);
+    grid-template-rows: minmax(20px,auto);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+}
+.eight div {
+background-color: teal
+}
+
+.nine{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+    
+   background-color: rgb(10, 10, 10);
+    color: white;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+
+}
+.nine div{
+    background-color: teal;
+}
+.nin .child1{
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
